@@ -1,9 +1,46 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="y-GoL7AwrLFA5wOkOilj">
-    <mxGraphModel>
+    <mxGraphModel dx="890" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bJwwSnudww5qPSA5wSgL-13" edge="1" parent="1" source="bJwwSnudww5qPSA5wSgL-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" target="bJwwSnudww5qPSA5wSgL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bJwwSnudww5qPSA5wSgL-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;Source&lt;/div&gt;&lt;div&gt;2d Fracture&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="170" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bJwwSnudww5qPSA5wSgL-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;Sink&lt;/div&gt;&lt;div&gt;2d Fracture&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="570" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="bJwwSnudww5qPSA5wSgL-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Intersection" vertex="1">
+          <mxGeometry height="80" width="80" x="390" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bJwwSnudww5qPSA5wSgL-9" edge="1" parent="1" source="bJwwSnudww5qPSA5wSgL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="bJwwSnudww5qPSA5wSgL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bJwwSnudww5qPSA5wSgL-15" edge="1" parent="1" source="bJwwSnudww5qPSA5wSgL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="bJwwSnudww5qPSA5wSgL-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJwwSnudww5qPSA5wSgL-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Fracture" vertex="1">
+          <mxGeometry height="80" width="80" x="310" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="bJwwSnudww5qPSA5wSgL-8" edge="1" parent="1" source="bJwwSnudww5qPSA5wSgL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="bJwwSnudww5qPSA5wSgL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bJwwSnudww5qPSA5wSgL-14" edge="1" parent="1" source="bJwwSnudww5qPSA5wSgL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="bJwwSnudww5qPSA5wSgL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bJwwSnudww5qPSA5wSgL-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Fracture" vertex="1">
+          <mxGeometry height="80" width="80" x="390" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bJwwSnudww5qPSA5wSgL-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Intersection" vertex="1">
+          <mxGeometry height="80" width="80" x="250" y="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
